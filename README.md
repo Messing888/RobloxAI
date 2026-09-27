@@ -5,19 +5,19 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-green?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-**RobloxAI** — это легковесный модуль на Luau для быстрой интеграции нейросетей (LLM) в ваши плейсы Roblox. Создавайте умных NPC, динамические квесты и чат-ботов с минимальными усилиями.
+**RobloxAI** is a lightweight Luau module for quickly integrating neural networks (LLMs) into your Roblox experiences. Create smart NPCs, dynamic quests, and chatbots with minimal effort.
 
-## ✨ Особенности
-* 🚀 **Простая настройка:** Подключение за пару минут через `HttpService`.
-* 🧠 **Умные NPC:** Персонажи, которые понимают контекст и отвечают игрокам.
-* 🛡️ **Безопасность:** Защита API-ключей на стороне сервера (ServerScriptService).
+## ✨ Features
+* 🚀 **Simple Setup:** Connect in just a few minutes via `HttpService`.
+* 🧠 **Smart NPCs:** Characters that understand context and respond intelligently to players.
+* 🛡️ **Security:** API key protection is handled entirely on the server side (ServerScriptService).
 
-## 🛠️ Установка
-1. Включите **Allow HTTP Requests** в настройках вашей игры (Game Settings -> Security).
-2. Скопируйте код из `RobloxAI.lua` в новый `Script` внутри `ServerScriptService`.
-3. Вставьте ваш API-ключ в переменную `API_KEY`.
+## 🛠️ Installation
+1. Enable **Allow HTTP Requests** in your game settings (Game Settings -> Security).
+2. Copy the code from `RobloxAI.lua` into a new `Script` inside `ServerScriptService`.
+3. Paste your API key into the `API_KEY` variable.
 
-## 📖 Пример использования
+## 📖 Usage Example
 ```lua
--- Игрок пишет в чат "!ai Расскажи про этот мир"
--- Скрипт перехватывает сообщение и генерирует осмысленный ответ от лица NPC.
+-- A player types "!ai Tell me about this world" in the chat
+-- The script intercepts the message and generates a meaningful response from the NPC.
